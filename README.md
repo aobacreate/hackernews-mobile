@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hacker News | Mobile版
 
-## Getting Started
+Hacker News API を利用し、記事データを取得・表示する  
+**モバイル向け Web アプリケーション**です。
 
-First, run the development server:
+Figma での画面設計をもとに、  
+デザインから実装までの流れを意識して制作しました。
+
+---
+
+## 🔗 Demo
+
+- Webサイト（Vercel）：https//hackernews-mobile.vercel.app
+- 制作ログ（ブログ）  
+  https://aobacreate.net/hacker-news-mobile-complete/
+
+
+---
+
+## 🛠 使用技術
+
+- Next.js（App Router）
+- TypeScript
+- Tailwind CSS
+- Hacker News API
+- Vercel（デプロイ）
+
+---
+
+## 📱 アプリ概要
+
+- Hacker News の記事一覧を取得・表示
+- モバイル画面を主軸にした UI 設計
+- 読みやすさを重視したシンプルなレイアウト
+- 「Top / New / Best」の切り替え表示
+- 「Read More」による追加読み込み
+
+---
+
+## 🎨 デザイン
+
+- Figma にてモバイル版 UI を設計
+- フォントサイズ、行間、余白を意識した設計
+- 実装時は Figma の設計に極力沿う形で反映
+
+Figma：  
+https://www.figma.com/design/gIRIASEH8Rx7Lyx1qVd8pD/-%E5%85%AC%E9%96%8B%E7%94%A8-HackerNews?node-id=2-2&t=BqBdxQvmv1OqlMb3-1
+
+---
+
+## 🚀 ローカルでの起動方法
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+ブラウザで以下にアクセスしてください。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 備考
+- 本プロジェクトはcreate-next-appを使用して作成しています。
+- スマートフォン表示(幅393px基準)を起点として設計しています。
