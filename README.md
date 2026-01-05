@@ -10,7 +10,8 @@ Figma での画面設計をもとに、
 
 ## 🔗 Demo
 
-- Webサイト（Vercel）：https//hackernews-mobile.vercel.app
+- Webサイト（Vercel
+  https://hackernews-mobile.vercel.app
 - 制作ログ（ブログ）  
   https://aobacreate.net/hacker-news-mobile-complete/
 
