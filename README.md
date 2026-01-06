@@ -1,7 +1,6 @@
 # Hacker News | Mobile版
 
 Hacker News API を利用し、記事データを取得・表示する**モバイル向け Web アプリケーション**です。
-
 Figma での画面設計をもとに、デザインから実装までの流れを意識して制作しました。
 
 ## 🔗 Demo
